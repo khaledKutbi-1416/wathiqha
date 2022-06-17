@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A566B227E495CF0012DDE1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566B127E495CF0012DDE1 /* Colors.swift */; };
+		18A566B627E4C6130012DDE1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18A566B827E4C6130012DDE1 /* Localizable.strings */; };
+		18A566BF27E4D8FF0012DDE1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566BE27E4D8FF0012DDE1 /* TabBarController.swift */; };
+		18A566C127E4E5110012DDE1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566C027E4E5110012DDE1 /* ProfileViewController.swift */; };
+		18A566C327E4ED5C0012DDE1 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566C227E4ED5C0012DDE1 /* ProfileScreen.swift */; };
+		18A566C627E4EDA00012DDE1 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566C527E4EDA00012DDE1 /* ProfileViewModel.swift */; };
+		18A566C827E4EE080012DDE1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566C727E4EE080012DDE1 /* User.swift */; };
+		18A566CB27E51C990012DDE1 /* WathiqhaApis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18A566CA27E51C980012DDE1 /* WathiqhaApis.plist */; };
+		18A566CD27E524E10012DDE1 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A566CC27E524E10012DDE1 /* EndPoint.swift */; };
+		18EEB1E427CC1978008FE657 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB1E327CC1978008FE657 /* AppDelegate.swift */; };
+		18EEB1E627CC1978008FE657 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB1E527CC1978008FE657 /* SceneDelegate.swift */; };
+		18EEB1E827CC1978008FE657 /* MyInvoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB1E727CC1978008FE657 /* MyInvoicesViewController.swift */; };
+		18EEB1ED27CC197B008FE657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EEB1EC27CC197B008FE657 /* Assets.xcassets */; };
+		18EEB1F027CC197B008FE657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EEB1EE27CC197B008FE657 /* LaunchScreen.storyboard */; };
+		18EEB1FB27CC197B008FE657 /* WathiqhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB1FA27CC197B008FE657 /* WathiqhaTests.swift */; };
+		18EEB20627CC197B008FE657 /* WathiqhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB20527CC197B008FE657 /* WathiqhaUITests.swift */; };
+		18EEB22127CC1BF6008FE657 /* MyInvoicScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22027CC1BF6008FE657 /* MyInvoicScreen.swift */; };
+		18EEB22327CC1CAD008FE657 /* Invoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22227CC1CAD008FE657 /* Invoice.swift */; };
+		18EEB22527CC2411008FE657 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22427CC2411008FE657 /* Product.swift */; };
+		18EEB22727CC2420008FE657 /* Gurantee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22627CC2420008FE657 /* Gurantee.swift */; };
+		18EEB22927CC2432008FE657 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22827CC2432008FE657 /* Coordinates.swift */; };
+		18EEB22B27CC2448008FE657 /* Orgnization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22A27CC2448008FE657 /* Orgnization.swift */; };
+		18EEB22D27CC25F1008FE657 /* Tax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22C27CC25F1008FE657 /* Tax.swift */; };
+		18EEB22F27CC2609008FE657 /* Branch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB22E27CC2609008FE657 /* Branch.swift */; };
+		18EEB23127CD589E008FE657 /* MyInvoicesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB23027CD589E008FE657 /* MyInvoicesViewModel.swift */; };
+		18EEB23327CD6250008FE657 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB23227CD6250008FE657 /* DataService.swift */; };
+		18EEB23527CD6571008FE657 /* ContactInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EEB23427CD6571008FE657 /* ContactInformation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18EEB1F727CC197B008FE657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EEB1D827CC1978008FE657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EEB1DF27CC1978008FE657;
+			remoteInfo = Wathiqha;
+		};
+		18EEB20227CC197B008FE657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18EEB1D827CC1978008FE657 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18EEB1DF27CC1978008FE657;
+			remoteInfo = Wathiqha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18A566B127E495CF0012DDE1 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		18A566B327E4C4F90012DDE1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18A566B727E4C6130012DDE1 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18A566BB27E4CAAC0012DDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		18A566BD27E4CF6C0012DDE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		18A566BE27E4D8FF0012DDE1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		18A566C027E4E5110012DDE1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		18A566C227E4ED5C0012DDE1 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		18A566C527E4EDA00012DDE1 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		18A566C727E4EE080012DDE1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		18A566CA27E51C980012DDE1 /* WathiqhaApis.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WathiqhaApis.plist; sourceTree = "<group>"; };
+		18A566CC27E524E10012DDE1 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		18EEB1E027CC1978008FE657 /* Wathiqha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wathiqha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EEB1E327CC1978008FE657 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18EEB1E527CC1978008FE657 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18EEB1E727CC1978008FE657 /* MyInvoicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvoicesViewController.swift; sourceTree = "<group>"; };
+		18EEB1EC27CC197B008FE657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18EEB1EF27CC197B008FE657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18EEB1F127CC197B008FE657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EEB1F627CC197B008FE657 /* WathiqhaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WathiqhaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EEB1FA27CC197B008FE657 /* WathiqhaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WathiqhaTests.swift; sourceTree = "<group>"; };
+		18EEB1FC27CC197B008FE657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EEB20127CC197B008FE657 /* WathiqhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WathiqhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18EEB20527CC197B008FE657 /* WathiqhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WathiqhaUITests.swift; sourceTree = "<group>"; };
+		18EEB20727CC197B008FE657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EEB22027CC1BF6008FE657 /* MyInvoicScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvoicScreen.swift; sourceTree = "<group>"; };
+		18EEB22227CC1CAD008FE657 /* Invoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Invoice.swift; sourceTree = "<group>"; };
+		18EEB22427CC2411008FE657 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		18EEB22627CC2420008FE657 /* Gurantee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gurantee.swift; sourceTree = "<group>"; };
+		18EEB22827CC2432008FE657 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		18EEB22A27CC2448008FE657 /* Orgnization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orgnization.swift; sourceTree = "<group>"; };
+		18EEB22C27CC25F1008FE657 /* Tax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tax.swift; sourceTree = "<group>"; };
+		18EEB22E27CC2609008FE657 /* Branch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Branch.swift; sourceTree = "<group>"; };
+		18EEB23027CD589E008FE657 /* MyInvoicesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInvoicesViewModel.swift; sourceTree = "<group>"; };
+		18EEB23227CD6250008FE657 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		18EEB23427CD6571008FE657 /* ContactInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInformation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18EEB1DD27CC1978008FE657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1F327CC197B008FE657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1FE27CC197B008FE657 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18A566C427E4ED870012DDE1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18A566C527E4EDA00012DDE1 /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18A566C927E4EE140012DDE1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18A566C727E4EE080012DDE1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EEB1D727CC1978008FE657 = {
+			isa = PBXGroup;
+			children = (
+				18EEB1E227CC1978008FE657 /* Wathiqha */,
+				18EEB1F927CC197B008FE657 /* WathiqhaTests */,
+				18EEB20427CC197B008FE657 /* WathiqhaUITests */,
+				18EEB1E127CC1978008FE657 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18EEB1E127CC1978008FE657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB1E027CC1978008FE657 /* Wathiqha.app */,
+				18EEB1F627CC197B008FE657 /* WathiqhaTests.xctest */,
+				18EEB20127CC197B008FE657 /* WathiqhaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18EEB1E227CC1978008FE657 /* Wathiqha */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB21D27CC1A9A008FE657 /* WathiqhaClient */,
+				18EEB21827CC19E1008FE657 /* FinancialManagment */,
+				18EEB21727CC19D2008FE657 /* MyInvoices */,
+				18EEB21627CC19A7008FE657 /* SignIn */,
+				18EEB21527CC199E008FE657 /* Profile */,
+				18EEB1E327CC1978008FE657 /* AppDelegate.swift */,
+				18EEB1E527CC1978008FE657 /* SceneDelegate.swift */,
+				18EEB1EC27CC197B008FE657 /* Assets.xcassets */,
+				18EEB1EE27CC197B008FE657 /* LaunchScreen.storyboard */,
+				18EEB1F127CC197B008FE657 /* Info.plist */,
+				18A566B127E495CF0012DDE1 /* Colors.swift */,
+				18A566B827E4C6130012DDE1 /* Localizable.strings */,
+			);
+			path = Wathiqha;
+			sourceTree = "<group>";
+		};
+		18EEB1F927CC197B008FE657 /* WathiqhaTests */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB1FA27CC197B008FE657 /* WathiqhaTests.swift */,
+				18EEB1FC27CC197B008FE657 /* Info.plist */,
+			);
+			path = WathiqhaTests;
+			sourceTree = "<group>";
+		};
+		18EEB20427CC197B008FE657 /* WathiqhaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB20527CC197B008FE657 /* WathiqhaUITests.swift */,
+				18EEB20727CC197B008FE657 /* Info.plist */,
+			);
+			path = WathiqhaUITests;
+			sourceTree = "<group>";
+		};
+		18EEB21527CC199E008FE657 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18A566C927E4EE140012DDE1 /* Model */,
+				18A566C427E4ED870012DDE1 /* ViewModel */,
+				18A566C027E4E5110012DDE1 /* ProfileViewController.swift */,
+				18A566C227E4ED5C0012DDE1 /* ProfileScreen.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		18EEB21627CC19A7008FE657 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		18EEB21727CC19D2008FE657 /* MyInvoices */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB21C27CC1A90008FE657 /* ViewModel */,
+				18EEB21B27CC1A7D008FE657 /* View */,
+				18EEB21A27CC1A73008FE657 /* Model */,
+			);
+			path = MyInvoices;
+			sourceTree = "<group>";
+		};
+		18EEB21827CC19E1008FE657 /* FinancialManagment */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FinancialManagment;
+			sourceTree = "<group>";
+		};
+		18EEB21A27CC1A73008FE657 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB22227CC1CAD008FE657 /* Invoice.swift */,
+				18EEB22427CC2411008FE657 /* Product.swift */,
+				18EEB22627CC2420008FE657 /* Gurantee.swift */,
+				18EEB22827CC2432008FE657 /* Coordinates.swift */,
+				18EEB22A27CC2448008FE657 /* Orgnization.swift */,
+				18EEB22E27CC2609008FE657 /* Branch.swift */,
+				18EEB22C27CC25F1008FE657 /* Tax.swift */,
+				18EEB23427CD6571008FE657 /* ContactInformation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18EEB21B27CC1A7D008FE657 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB1E727CC1978008FE657 /* MyInvoicesViewController.swift */,
+				18EEB22027CC1BF6008FE657 /* MyInvoicScreen.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18EEB21C27CC1A90008FE657 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18EEB23027CD589E008FE657 /* MyInvoicesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18EEB21D27CC1A9A008FE657 /* WathiqhaClient */ = {
+			isa = PBXGroup;
+			children = (
+				18A566BE27E4D8FF0012DDE1 /* TabBarController.swift */,
+				18EEB23227CD6250008FE657 /* DataService.swift */,
+				18A566CA27E51C980012DDE1 /* WathiqhaApis.plist */,
+				18A566CC27E524E10012DDE1 /* EndPoint.swift */,
+			);
+			path = WathiqhaClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18EEB1DF27CC1978008FE657 /* Wathiqha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EEB20A27CC197B008FE657 /* Build configuration list for PBXNativeTarget "Wathiqha" */;
+			buildPhases = (
+				18EEB1DC27CC1978008FE657 /* Sources */,
+				18EEB1DD27CC1978008FE657 /* Frameworks */,
+				18EEB1DE27CC1978008FE657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wathiqha;
+			productName = Wathiqha;
+			productReference = 18EEB1E027CC1978008FE657 /* Wathiqha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18EEB1F527CC197B008FE657 /* WathiqhaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EEB20D27CC197B008FE657 /* Build configuration list for PBXNativeTarget "WathiqhaTests" */;
+			buildPhases = (
+				18EEB1F227CC197B008FE657 /* Sources */,
+				18EEB1F327CC197B008FE657 /* Frameworks */,
+				18EEB1F427CC197B008FE657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EEB1F827CC197B008FE657 /* PBXTargetDependency */,
+			);
+			name = WathiqhaTests;
+			productName = WathiqhaTests;
+			productReference = 18EEB1F627CC197B008FE657 /* WathiqhaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18EEB20027CC197B008FE657 /* WathiqhaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18EEB21027CC197B008FE657 /* Build configuration list for PBXNativeTarget "WathiqhaUITests" */;
+			buildPhases = (
+				18EEB1FD27CC197B008FE657 /* Sources */,
+				18EEB1FE27CC197B008FE657 /* Frameworks */,
+				18EEB1FF27CC197B008FE657 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18EEB20327CC197B008FE657 /* PBXTargetDependency */,
+			);
+			name = WathiqhaUITests;
+			productName = WathiqhaUITests;
+			productReference = 18EEB20127CC197B008FE657 /* WathiqhaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18EEB1D827CC1978008FE657 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					18EEB1DF27CC1978008FE657 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					18EEB1F527CC197B008FE657 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 18EEB1DF27CC1978008FE657;
+					};
+					18EEB20027CC197B008FE657 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 18EEB1DF27CC1978008FE657;
+					};
+				};
+			};
+			buildConfigurationList = 18EEB1DB27CC1978008FE657 /* Build configuration list for PBXProject "Wathiqha" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 18EEB1D727CC1978008FE657;
+			productRefGroup = 18EEB1E127CC1978008FE657 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18EEB1DF27CC1978008FE657 /* Wathiqha */,
+				18EEB1F527CC197B008FE657 /* WathiqhaTests */,
+				18EEB20027CC197B008FE657 /* WathiqhaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18EEB1DE27CC1978008FE657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A566CB27E51C990012DDE1 /* WathiqhaApis.plist in Resources */,
+				18EEB1F027CC197B008FE657 /* LaunchScreen.storyboard in Resources */,
+				18EEB1ED27CC197B008FE657 /* Assets.xcassets in Resources */,
+				18A566B627E4C6130012DDE1 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1F427CC197B008FE657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1FF27CC197B008FE657 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18EEB1DC27CC1978008FE657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EEB1E827CC1978008FE657 /* MyInvoicesViewController.swift in Sources */,
+				18A566B227E495CF0012DDE1 /* Colors.swift in Sources */,
+				18EEB22527CC2411008FE657 /* Product.swift in Sources */,
+				18EEB22B27CC2448008FE657 /* Orgnization.swift in Sources */,
+				18A566C627E4EDA00012DDE1 /* ProfileViewModel.swift in Sources */,
+				18EEB23527CD6571008FE657 /* ContactInformation.swift in Sources */,
+				18EEB22327CC1CAD008FE657 /* Invoice.swift in Sources */,
+				18A566C827E4EE080012DDE1 /* User.swift in Sources */,
+				18EEB22F27CC2609008FE657 /* Branch.swift in Sources */,
+				18A566C127E4E5110012DDE1 /* ProfileViewController.swift in Sources */,
+				18EEB22127CC1BF6008FE657 /* MyInvoicScreen.swift in Sources */,
+				18EEB1E427CC1978008FE657 /* AppDelegate.swift in Sources */,
+				18A566CD27E524E10012DDE1 /* EndPoint.swift in Sources */,
+				18EEB23327CD6250008FE657 /* DataService.swift in Sources */,
+				18EEB22727CC2420008FE657 /* Gurantee.swift in Sources */,
+				18EEB23127CD589E008FE657 /* MyInvoicesViewModel.swift in Sources */,
+				18EEB22D27CC25F1008FE657 /* Tax.swift in Sources */,
+				18A566BF27E4D8FF0012DDE1 /* TabBarController.swift in Sources */,
+				18EEB1E627CC1978008FE657 /* SceneDelegate.swift in Sources */,
+				18EEB22927CC2432008FE657 /* Coordinates.swift in Sources */,
+				18A566C327E4ED5C0012DDE1 /* ProfileScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1F227CC197B008FE657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EEB1FB27CC197B008FE657 /* WathiqhaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18EEB1FD27CC197B008FE657 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EEB20627CC197B008FE657 /* WathiqhaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18EEB1F827CC197B008FE657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EEB1DF27CC1978008FE657 /* Wathiqha */;
+			targetProxy = 18EEB1F727CC197B008FE657 /* PBXContainerItemProxy */;
+		};
+		18EEB20327CC197B008FE657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18EEB1DF27CC1978008FE657 /* Wathiqha */;
+			targetProxy = 18EEB20227CC197B008FE657 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18A566B827E4C6130012DDE1 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18A566B727E4C6130012DDE1 /* ar */,
+				18A566BB27E4CAAC0012DDE1 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		18EEB1EE27CC197B008FE657 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18EEB1EF27CC197B008FE657 /* Base */,
+				18A566B327E4C4F90012DDE1 /* ar */,
+				18A566BD27E4CF6C0012DDE1 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18EEB20827CC197B008FE657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18EEB20927CC197B008FE657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18EEB20B27CC197B008FE657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = Wathiqha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.Wathiqha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18EEB20C27CC197B008FE657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = Wathiqha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.Wathiqha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18EEB20E27CC197B008FE657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = WathiqhaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.WathiqhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wathiqha.app/Wathiqha";
+			};
+			name = Debug;
+		};
+		18EEB20F27CC197B008FE657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = WathiqhaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.WathiqhaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wathiqha.app/Wathiqha";
+			};
+			name = Release;
+		};
+		18EEB21127CC197B008FE657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = WathiqhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.WathiqhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wathiqha;
+			};
+			name = Debug;
+		};
+		18EEB21227CC197B008FE657 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62QT92WGA3;
+				INFOPLIST_FILE = WathiqhaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wathiqha.sa.WathiqhaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wathiqha;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18EEB1DB27CC1978008FE657 /* Build configuration list for PBXProject "Wathiqha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EEB20827CC197B008FE657 /* Debug */,
+				18EEB20927CC197B008FE657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EEB20A27CC197B008FE657 /* Build configuration list for PBXNativeTarget "Wathiqha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EEB20B27CC197B008FE657 /* Debug */,
+				18EEB20C27CC197B008FE657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EEB20D27CC197B008FE657 /* Build configuration list for PBXNativeTarget "WathiqhaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EEB20E27CC197B008FE657 /* Debug */,
+				18EEB20F27CC197B008FE657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18EEB21027CC197B008FE657 /* Build configuration list for PBXNativeTarget "WathiqhaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18EEB21127CC197B008FE657 /* Debug */,
+				18EEB21227CC197B008FE657 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18EEB1D827CC1978008FE657 /* Project object */;
+}

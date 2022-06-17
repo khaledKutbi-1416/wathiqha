@@ -1,0 +1,22 @@
+
+"changeLanguage" = "تغيير اللغة";
+"ar" = "العربية";
+"en" = "English";
+"myInvoices" ="فواتيري";
+"profile" = "الملف الشخصي";
+"PersonalInformation" = "البيانات الشخصية";
+"settings" = "الاعدادات";
+"lang" = "اللغة";
+"fullName" = "الاسم";
+"phoneNumber" = "رقم االجوال";
+"birthDay" = "تاريخ الميلاد";
+"email" = "البريد الالكتروني";
+"jobTitle" = "الوظيفة";
+"gender" = "نوع الجنس";
+"male" = "ذكر";
+"female" = "انثى";
+"about" = "عن";
+"termsAndCondations" = "الشروط والاحكام";
+"privacyPolicy" = "سياسة الخصوصية";
+"version" = "الاصدار";
+"selectLanguage" = "اختر لغة";
